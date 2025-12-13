@@ -1,0 +1,73 @@
+*{
+font-family: "Inconsolata", monospace;
+}
+/*titulo*/
+.logotipo {
+  width:15rem;
+}
+a,ul{
+  color: rgb(14, 132, 187);
+  text-decoration: none;
+    list-style: none;
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    gap: 10rem;
+}
+/*main*/
+.fondoprincipal{
+  display: block;
+  background-image: url(../Img/fondo/fondo-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(9, 55, 59);
+}
+.imagen-1,.imagen-2,.imagen-3,.imagen-4{height: 30rem;}
+/*footer*/
+.redes-titulo {font-size: 2rem;}
+.instgram-logo{height:  5rem;}
+.artstation-logo{height: 5rem;}
+
+/*html prints*/
+
+/*titulo*/
+.titulo-print{
+font-size:  8.5rem;
+text-align: center;}
+/*main*/
+.pagina-principal {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px;
+}
+
+/*prints-html*/
+
+.print-1,.print-2,.print-3,.print-4{ width: 20rem;
+align-items: center;
+border-radius: 2rem;}
+.buttons{ 
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px;
+  background-color: rgba(142, 195, 228, 0.735);
+  color: rgb(7, 48, 48);
+  border-color: rgba(174, 203, 205, 0.114);
+  border-radius: 1rem
+}
+.contenedor-cuadricula {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px;
+}
+/*html sobre mi*/
+
+.fondo1{
+  display: block;
+  background-image: url(../Img/fondo/fondo-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footersobremi{
+text-align: center;}
