@@ -1,0 +1,16 @@
+@use "../base/mixins" as *;
+
+.pagina-principal,
+.contenedor-cuadricula {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  @include tablet {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  @include desktop {
+    gap: 2rem;
+  }
+}

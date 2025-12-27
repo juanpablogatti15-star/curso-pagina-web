@@ -1,0 +1,7 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+
+.fondo-base {
+  @include fondo-cover($bg-main);
+  min-height: 100vh;
+}

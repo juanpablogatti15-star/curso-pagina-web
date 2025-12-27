@@ -1,86 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catart porfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">   
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatArt Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+ <!-- Fuente google -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
 </head>
 
-<body class="fondoprincipal">
-<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-  <div class="container-fluid">
-    <nav class="navbar bg-body-tertiary">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-      <img src="./Img/logo-inicio.png" alt="Logo" width="75" height="60" class="d-inline-block ">
-      CatArt
-    </a>
-  </div>
-</nav>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        </li> <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./pages/sobre-mi.html">Sobre mi</a>
-        </li> <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./pages/prints.html">Prints</a>
-        </li> </li> <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./pages/proceso-dibujado.html">Paso a paso</a>
-        </li>
-    </div>
-  </div>
-</nav>
-    <main>
-        
-        <H2>Trabajos Destacados</H2>
+<body class="fondo-base">
+  <!-- navbar -->
 
-       <div class="pagina-principal"> <Article>
-            <img class="imagen-1" src="Img/boceto1.jpg" alt="bocetado lineal">
-            <h3>nombre de la obra</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, quidem quam id sit
-            </p>
-        </Article>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid">
 
-        <Article>
-            <img class="imagen-2" src="Img/digital-1.JPG" alt="bocetado lineal">
-             <h3>nombre de la obra</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, quidem quam id sit
-            </p>
-        </Article>
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <img src="./Img/logo-inicio.png" alt="Logo CatArt" class="logotipo">
+          <span>CatArt</span>
+        </a>
 
-        <Article>
-            <img class="imagen-3" src="Img/logotipo-1.JPG" alt="bocetado lineal">
-             <h3>nombre de la obra</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, quidem quam id sit
-            </p>
-        </Article>
-          
-        <Article>
-            <img class="imagen-4" src="Img/miku-poster.JPG" alt="bocetado lineal">
-             <h3>nombre de la obra</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, quidem quam id sit
-            </p>
-        </Article>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/sobre-mi.html">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/prints.html">Prints</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/proceso-dibujado.html">Paso a paso</a>
+            </li>
+          </ul>
         </div>
-    </main>
-    <footer>
-        <h4 class="redes-titulo" >Redes sociales</h4>
-<a href="https://www.artstation.com/juanpablogatti" target=_blank>
-     <img class="artstation-logo" src="Img/ArtStation-logomark-dark.svg" alt="Artstation">
-</a>
-<a href="https://www.instagram.com/gattijp/" target=_blank>
-    <img class="instgram-logo" src="Img/logo-instagram_971166-164497.jpg" alt="Instagram">
-</a>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+      </div>
+    </nav>
+  </header>
+
+<!-- Main -->
+
+  <main class="container py-4">
+
+    <h2 class="text-center mb-4">Trabajos Destacados</h2>
+
+    <section class="pagina-principal">
+
+      <article>
+        <img src="Img/boceto1.jpg" alt="Boceto lineal">
+        <h3>Nombre de la obra</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </article>
+
+      <article>
+        <img src="Img/digital-1.JPG" alt="Ilustración digital">
+        <h3>Nombre de la obra</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </article>
+
+      <article>
+        <img src="Img/logotipo-1.JPG" alt="Diseño de logotipo">
+        <h3>Nombre de la obra</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </article>
+
+      <article>
+        <img src="Img/miku-poster.JPG" alt="Poster ilustrado">
+        <h3>Nombre de la obra</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <h4 class="redes-titulo">Redes sociales</h4>
+
+    <a href="https://www.artstation.com/juanpablogatti" target="_blank">
+      <img class="artstation-logo" src="Img/ArtStation-logomark-dark.svg" alt="ArtStation">
+    </a>
+
+    <a href="https://www.instagram.com/gattijp/" target="_blank">
+      <img class="instgram-logo" src="Img/2227.jpg" alt="Instagram">
+    </a>
+  </footer>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

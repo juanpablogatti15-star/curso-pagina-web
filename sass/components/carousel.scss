@@ -1,0 +1,28 @@
+@use "../base/mixins" as *;
+
+.carousel-item img {
+  height: 40vh;
+  object-fit: cover;
+  object-position: center top;
+
+  @include tablet {
+    height: 55vh;
+  }
+
+  @include desktop {
+    height: 70vh;
+  }
+}
+
+.carousel-caption {
+  h5,
+  p {
+    color: #000;
+    text-shadow: 0 2px 6px rgba(255, 255, 255, 0.7);
+  }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}

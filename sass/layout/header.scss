@@ -1,0 +1,33 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+
+a,
+ul {
+  color: $color-primary;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+  font-size: 1.6rem;
+  text-align: center;
+
+  @include tablet {
+    font-size: 2.2rem;
+  }
+
+  @include desktop {
+    font-size: 3rem;
+  }
+}
+
+.logotipo {
+  width: 5rem;
+  margin: auto;
+
+  @include tablet {
+    width: 6rem;
+  }
+
+  @include desktop {
+    width: 8rem;
+  }
+}
